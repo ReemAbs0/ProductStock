@@ -6,14 +6,14 @@ import org.junit.platform.suite.api.SelectPackages;
 import org.junit.platform.suite.api.Suite;
 import org.junit.platform.suite.api.SuiteDisplayName;
 
-import main.java.ProductStock;
+import main.test.ProductStockTest;
 
 
 
 @SuiteDisplayName("Test Methods")
 @Suite
-@SelectPackages("main.test")
-@SelectClasses({ProductStock.class})
+//@SelectPackages("main.test")
+@SelectClasses({ProductStockTest.class})
 @IncludeTags({"sanity","regression"})
 public class TestSuite {
 
