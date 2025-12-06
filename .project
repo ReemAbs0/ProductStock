@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/resources/stockProduct.xlsx</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Downloads/stockProduct.xlsx</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
